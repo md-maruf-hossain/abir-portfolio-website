@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tajbiul Abir | Home</title>
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/140ee598e7.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="container mx-auto">
+      <!-- navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0" class="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+              <li><a href="#about-me">Home</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#social">Social</a></li>
+              <li><a href="#">Certification</a></li>
+              <li><a href="#">CV</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-2xl normal-case btn btn-ghost">TAJBIUL HASAN ABIR</a>
+        </div>
+        <div class="hidden navbar-center lg:flex">
+          <ul class="p-0 text-xl menu menu-horizontal">
+            <li><a href="#about-me">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#social">Social</a></li>
+            <li><a href="#">Certification</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- navbar end -->
+    </header>
+
+    <main>
+      <!-- intorduction -->
+      <section class="container mx-auto my-10" id="about-me">
+        <div class=" grid grid-flow-col gap-2">
+          <div>
+            <img class="" src="images/silder-1.jpg" alt="image-abir" />
+          </div>
+          <!-- ... -->
+          <div class="ml-10">
+            <h1 class="text-5xl font-bold">About me</h1>
+            <p class="mt-10 text-3xl">
+              A Hardworking and Confident person. I am always energetic and eager to learn new skills.I use a creative approach to problem solve and have experience working as part of a team and
+              individually.
+            </p>
+            <a href="#social"><button class="mt-10 btn btn-active btn-primary">Contact me</button></a>
+          </div>
+        </div>
+      </section>
+      <!-- intorduction end -->
+
+      <!-- education -->
+      <h1 class="text-5xl font-bold text-center" id="education">Education</h1>
+      <section class="container mx-auto my-10">
+        <div class="grid gap-5 xl:grid-cols-3 lg:grid-cols-6 md:grid-cols-6" id="education-responsive">
+          <div>
+            <div class="shadow-xl card w-96 bg-base-100">
+              <figure><img src="images/school.jpg" alt="school" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">A. K. High School And College</h2>
+                <p>S.S.C : 2015</p>
+                <p>Group : Science</p>
+                <p>GPA : 5.00</p>
+              </div>
+            </div>
+          </div>
+          <!-- ... -->
+          <div>
+            <div class="shadow-xl card w-96 bg-base-100">
+              <figure><img src="images/college.jpg" alt="college" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Government Science College</h2>
+                <p>H.S.C : 2017</p>
+                <p>Group : Science</p>
+                <p>GPA : 4.67</p>
+              </div>
+            </div>
+          </div>
+          <!-- ... -->
+          <div>
+            <div class="shadow-xl card w-96 bg-base-100">
+              <figure><img src="images/uni.jpg" alt="university" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Ahsanullah University of Science and Technology</h2>
+                <p>Graduation : Currently Studying in 3rd year</p>
+                <p>Department of Textile Engineering</p>
+                <p>CGPA : 4.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- education end -->
+
+      <!-- skills and language and hobbies -->
+      <section class="container grid grid-cols-2 gap-4 mx-auto" id="skill">
+        <div>
+          <div class="px-5 py-3 text-2xl font-bold bg-gray-50">Skills</div>
+          <canvas class="p-10" id="chartPie"></canvas>
+        </div>
+        <!-- ... -->
+        <div>
+          <div class="px-5 py-3 text-2xl font-bold bg-gray-50">Language proficiency</div>
+          <!-- language -->
+          <div class="mt-10">
+            <div class="flex justify-between mb-1">
+              <span class="text-lg font-medium dark:text-white">Bangali</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+            </div>
+          </div>
+          <!-- language end -->
+
+          <!-- language -->
+          <div class="mt-10">
+            <div class="flex justify-between mb-1">
+              <span class="text-lg font-medium dark:text-white">English</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+            </div>
+          </div>
+          <!-- language end -->
+
+          <!-- hobbies -->
+          <div class="px-5 py-3 mt-10 text-2xl font-bold bg-gray-50">Hobbies</div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="mt-5">
+              <div class="flex col">
+                <i class="text-xl text-blue-500 fa-solid fa-book-open-reader"></i>
+                <p class="ml-5 text-xl">Reading Books</p>
+              </div>
+            </div>
+            <!-- ... -->
+            <div class="mt-5">
+              <div class="flex col">
+                <i class="text-xl text-blue-500 fa-solid fa-film"></i>
+                <p class="ml-5 text-xl">Watching Movies</p>
+              </div>
+            </div>
+            <!-- ... -->
+            <div class="mt-5">
+              <div class="flex col">
+                <i class="text-xl text-blue-500 fa-solid fa-person-walking"></i>
+                <p class="ml-5 text-xl">Walking</p>
+              </div>
+            </div>
+            <!-- ... -->
+            <div class="mt-5">
+              <div class="flex col">
+                <i class="text-xl text-blue-500 fa-solid fa-person-biking"></i>
+                <p class="ml-5 text-xl">Cycling</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <!-- contact starts -->
+      <h1 class="my-10 text-5xl font-bold text-center" id="social">Social</h1>
+      <section class="container grid grid-cols-3 gap-4 mx-auto text-center">
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-solid fa-location-dot"></i>
+            <p>
+              37 kutubkhali,<br />
+              Jatrabari, Dhaka, Bangladesh-1236
+            </p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-solid fa-envelope"></i>
+            <p>tajbiulabir123@gmail.com</p>
+            <p>tajbiulabir123@gmail.com</p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-sharp fa-solid fa-square-phone"></i>
+            <p>+8801601600820</p>
+            <p>+8801601600820</p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-brands fa-linkedin"></i>
+            <p>www.linkedin.com/in/tajbiul.abir-8890</p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-brands fa-square-facebook"></i>
+            <p>www.facebook.com/tajbiul.abir</p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div class="shadow-xl card w-96 bg-base-100">
+          <div class="card-body">
+            <i class="text-5xl fa-brands fa-square-instagram"></i>
+            <p>www.instagram.com/tajbiul_hasan_abir</p>
+            <div class="justify-end card-actions"></div>
+          </div>
+        </div>
+      </section>
+      <!-- contact ends -->
+
+      <!-- contact -->
+      <section class="mt-10 container mx-auto" id="contact">
+        <h1 class="text-center font-bold text-5xl mb-5">Let's get in touch</h1>
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <img class="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="images/slider-3.jpeg" alt="image description">
+            </div>
+          <div>
+            <form>
+              <div class="mb-6">
+                <label for="base-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
+                <input
+                  type="text"
+                  id="base-input"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="name@flowbite.com"
+                  required=""
+                />
+              </div>
+              <div class="mb-6">
+                <label for="base-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Number</label>
+                <input
+                  type="number"
+                  id="base-input"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Your Number"
+                />
+              </div>
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Leave a comment..."
+              ></textarea>
+    
+              <button
+                type="submit"
+                class="my-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <!-- ... -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="p-10 rounded footer footer-center bg-base-200 text-base-content">
+      <div class="grid grid-flow-col">
+        <h1 class="text-2xl font-bold">Tajbiul Hasan Abir</h1>
+      </div>
+      <div>
+        <p class="text-lg">Copyright © 2022 - All right reserved by Tajbiul Hasan Abir</p>
+      </div>
+    </footer>
+
+    <!-- pie chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- daisy ui CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
